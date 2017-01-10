@@ -8,8 +8,8 @@
 	width:250px;
 	border-radius:10px;
 	position: relatve;
-	top:80px;
-	left:40px;
+	top:80%;
+	left:40%;
 }
 /*Dispay*/
 .display {
@@ -22,6 +22,14 @@
 .display input {
 	position: relative;
 	left:2px;
+	top:2px;
+	height: 30px;
+	width:210px;
+	color:black;
+	background-color:#bccd95;
+	font-size: 21px;
+	text-align:right;
+	
 }
 /*Calculator buttons*/
 	
