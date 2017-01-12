@@ -4,10 +4,10 @@
 /* Calculator Box */
 .box {
 	
-	background-color: #e5e7ea;
+	background-image: "(images/Creative-Cool-Background.jpg)";
 	height: 400px;
-	width: 300px;
-	border-radius: 10000px;
+	width: 600px;
+	border-radius: 100px;
 	position: relative;
 	top: 70px;
 	left: 40%;
@@ -16,9 +16,9 @@
 /* Display */
 .display {
 	background-color: #bfc4ce;
-	width: 220px;
+	width: 395px;
 	position: relative;
-	left: 15px;
+	left: 95px;
 	top: 10px;
 	height: 40px;
 }
@@ -27,7 +27,7 @@
 	left: 2px;
 	top: 2px;
 	height: 30px;
-	width: 210px;
+	width: 385px;
 	color: black;
 	background-color: #bccd95;
 	font-size: 21px;
@@ -44,7 +44,7 @@
 	height: 40px;
 	border: 0px;
 	border-radius: 60px;
-	margin-left: -3px;
+	margin-left: 10px;
 	cursor: pointer;
 	border-top: 2px solid transparent;
 }
