@@ -3,11 +3,10 @@
 
 /* Calculator Box */
 .box {
-	
-	background-color: #e5e7ea;
+	background-image: url("images/Creative-Cool-Background.jpg");
 	height: 400px;
-	width: 300px;
-	border-radius: 10000px;
+	width: 600px;
+	border-radius: 100px;
 	position: relative;
 	top: 70px;
 	left: 40%;
@@ -15,10 +14,10 @@
 
 /* Display */
 .display {
-	background-color: #bfc4ce;
-	width: 220px;
+	background-color: #0001;
+	width: 395px;
 	position: relative;
-	left: 15px;
+	left: 95px;
 	top: 10px;
 	height: 40px;
 }
@@ -27,9 +26,9 @@
 	left: 2px;
 	top: 2px;
 	height: 30px;
-	width: 210px;
+	width: 385px;
 	color: black;
-	background-color: #bccd95;
+	background-color: #1BE14C;
 	font-size: 21px;
 	text-align: right;
 }
@@ -44,13 +43,13 @@
 	height: 40px;
 	border: 0px;
 	border-radius: 60px;
-	margin-left: -3px;
+	margin-left: 10px;
 	cursor: pointer;
 	border-top: 2px solid transparent;
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #FFD100;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
@@ -60,11 +59,19 @@
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
-.button.number {
-	color: white;
-	background-color: #7091ab;
+.button.special {
+	margin-left: 200px;
+	color: black;
+	background-color: #BCFF33;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+
+}
+.button.number {
+	color: white;
+	background-color: #41FF00;
+	border-bottom: black 2px solid;
+	border-top: 2px #34B400 solid;
 }
 
 /* Simulate Button Press */

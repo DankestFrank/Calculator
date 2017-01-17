@@ -6,6 +6,10 @@ function d(val) {
 }
 // type numbers and operators
 function v(val) {
+	if ( val == "π" ) {
+        val = Math.PI;
+    }
+
 
 	document.getElementById("d").value += val;
 }
