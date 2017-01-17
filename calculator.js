@@ -10,10 +10,6 @@ function v(val) {
         val = Math.PI;
     }
 
-function v(val) {
-	if ( val == "e" ) {
-        val = Math.E;
-    }
 
 	document.getElementById("d").value += val;
 }
