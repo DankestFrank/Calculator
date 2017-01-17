@@ -6,6 +6,14 @@ function d(val) {
 }
 // type numbers and operators
 function v(val) {
+	if ( val == "π" ) {
+        val = Math.PI;
+    }
+
+function v(val) {
+	if ( val == "e" ) {
+        val = Math.E;
+    }
 
 	document.getElementById("d").value += val;
 }
